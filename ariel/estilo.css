@@ -56,7 +56,7 @@ body {
 
 
 #home{
-	width: 192px;
+	width: 220px;
 	height: 35px;
 	float: left;
 	background-color:#fff;
@@ -65,7 +65,7 @@ body {
 	font-weight: bold;
 }
 #hobby {
-	width: 291px;
+	width: 220px;
 	height:35px;
 	float: left;
 	background-color:#fff;
@@ -75,7 +75,7 @@ body {
 }
 
 #galeria {
-	width: 243px;
+	width: 220px;
 	height: 35px;
 	float: left;
 	background-color: #fff;
@@ -85,7 +85,7 @@ body {
 }
 
 #port {
-	width: 243px;
+	width: 220px;
 	height:35px;
 	float: left;
 	background-color:#fff;
@@ -95,7 +95,7 @@ body {
 }
 
 #contato {
-	width: 231px;
+	width: 220px;
 	height: 35px;
 	float: left;
 	background-color:#fff;
