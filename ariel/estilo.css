@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+
+
+body {
+	background-color: #EDEDED;
+	font-family: Times New Roman, Arial, Verdan;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+#site{
+	width: 90%;
+	margin:0 auto;
+	}
+
+#logo{
+	float: left;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 2px 5px 5px 63px;
+}
+
+#logo > a > img {
+	padding: 5px;
+}
+
+#ariel {
+	border-radius: 10px;
+}
+
+#description{
+	height: 200px;
+	background: linear-gradient(#6A0101 , #B10002);
+	text-align: center;
+}
+
+#description > h1 {
+	padding: 5% 0 5% 0;
+	color: #fff;
+}
+
+#menu{
+	border-radius: 5px;
+}
+
+#menu ul{
+	margin: 0;
+	background-color: #e0e0e0;
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+
+#home{
+	width: 20%;
+	height: 35px;
+	float: left;
+	text-align: center;
+	padding: 2px;
+	font-weight: bold;
+}
+#hobby {
+	width: 20%;
+	height:35px;
+	float: left;
+	text-align: center;
+	padding: 2px;
+	font-weight: bold;
+}
+
+#galeria {
+	width: 20%;
+	height: 35px;
+	float: left;
+	text-align: center;
+	padding: 2px;
+	font-weight: bold;
+}
+
+#port {
+	width: 20%;
+	height:35px;
+	float: left;
+	text-align: center;
+	padding: 2px;
+	font-weight: bold;
+}
+
+#contato {
+	width: 20%;
+	height: 35px;
+	float: left;
+	text-align: center;
+	padding: 2px;
+	font-weight: bold;
+}
+
+
+#section{
+	width: 100%;
+	height: auto;
+	background-color: #FFF;
+	padding-top: 40px;
+	text-align: center;
+	float: left;
+	border-radius: 0 0 5px 5px;
+}
+
+p {
+	padding: 10px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+
+h2 {
+	padding: 30px;
+	text-decoration-line: underline;
+	text-decoration-color: #9A0306;
+}
+
+
+#footer{
+	height: 20px;
+	color: #fff;
+	background: linear-gradient(#B10002 , #6A0101) !important;
+	text-align: center;	
+	border-radius: 0 0 5px 5px;
+	clear: both;
+}
+
+#redes > img {
+	width: 10px;
+	height: 10px;
+	float: right;
+}
+
+ul {
+	list-style-type: none;
+	margin:  0 2px 2px;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+	}
+	
+li a{
+	display: block;
+	text-decoration:none;
+	color: #000;
+	font-family: Times New Roman, Verdana;
+	font-size: 25px;
+}
+
+li a:hover {
+	background-color: #AA080A;
+	color: #fff;
+	border-radius: 5px;
+}
+
+/* galeria.html */
+
+.linha{width:100%;float:left;display: flex;padding-left: 9%;}
+
+div.gallery {
+    border: 1px solid #ccc;
+    width: 28%;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    height: 300px;
+}
+
+div.gallery:hover {
+    border: 1px solid #F15B5D;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+#livro{
+	height: 166px;
+}
+
+#um, #dois, #tres{
+	width: 100%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: justify;
+}
+
+
+#pi{
+	position: relative;
+		top: auto;
+}
+
+/* contato.html */
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #D00102;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #6A0101;
+}
+
+#formulario {
+    border-radius: 5px;
+    background: linear-gradient(#6A0101 , #B10002);
+    padding: 20px;
+	margin: 30px 60px;
+	text-align: left;
+	font-weight: bold;
+	color: #fff;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    resize:none;
+	overflow:visible;
+	font-family: times new roman;
+	margin: 10px 0;
+}
+
+
